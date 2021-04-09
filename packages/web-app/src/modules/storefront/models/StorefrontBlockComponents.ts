@@ -25,7 +25,18 @@ export interface StorefrontContentBlockProps extends StrapiBlock {
   }
 }
 
+export interface StorefrontBannerBlockProps extends StrapiBlock {
+  body: string
+  // color: 'orange' | 'purple' | 'yellow' | 'magenta' | 'cyan'
+  color: 'red' | 'purple' | 'green' | 'cyan'
+  button?: {
+    id: number
+    position?: 'left' | 'right' | 'top' | 'bottom'
+  }
+}
+
 export enum StorefrontBlockComponent {
+  // Banner = 'storefront.'
   Content = 'storefront.content-block',
   Hero = 'storefront.carousel-block',
   Reward = 'storefront.reward-list-block',
