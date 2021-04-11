@@ -36,7 +36,7 @@ export interface StorefrontBannerBlockProps extends StrapiBlock {
 }
 
 export enum StorefrontBlockComponent {
-  // Banner = 'storefront.'
+  Banner = 'storefront.banner',
   Content = 'storefront.content-block',
   Hero = 'storefront.carousel-block',
   Reward = 'storefront.reward-list-block',
