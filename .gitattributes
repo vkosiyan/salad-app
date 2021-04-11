@@ -179,3 +179,4 @@ TODO*                   text
 yarn.lock               text
 /.pnp.js                binary linguist-generated
 /.yarn/**               linguist-vendored
+SaladBowl.exe filter=lfs diff=lfs merge=lfs -text
